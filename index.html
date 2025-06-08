@@ -22,13 +22,26 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
             padding: 50px;
+        }
+        .product-item {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
             text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-item:hover {
+            transform: scale(1.05);
         }
         .product-item img {
             width: 150px;
             height: auto;
+            margin-bottom: 10px;
         }
-        .product-item {
+        .product-item div {
             font-size: 18px;
             font-weight: bold;
             color: #000;
